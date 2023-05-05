@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/meab.jpeg'
+import ME from '../../assets/mish.jpeg'
 import { FaAward } from 'react-icons/fa'
 import { VscFolderLibrary } from 'react-icons/vsc'
 import { GiPaintBrush } from 'react-icons/gi'
@@ -15,7 +15,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About Image" />
+            <img src={ME} alt="About" />
           </div>
         </div>
         <div className="about__content">
@@ -39,7 +39,10 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, aliquam dolore quisquam neque exercitationem labore porro veniam magnam sequi consequatur? Tempore, voluptas? Eaque dolorem atque quibusdam, pariatur perferendis quia aut.
+            I love being a full stack developer because it allows me to use my creative and analytical skills to build beautiful and functional websites and applications. I enjoy being able to see my ideas come to life and having the ability to share them with the world.
+          </p>
+          <p>
+            When I'm not coding, you can often find me working on a new art project or capturing moments. I love how art and photography allow me to express my creativity in different ways and capture moments in time that can be shared and enjoyed for years to come.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
