@@ -6,7 +6,7 @@ import Contact from './components/contact/Contact'
 import Experience from './components/experience/Experience'
 import Footer from './components/footer/Footer'
 import Portfolio from './components/portfolio/Portfolio'
-import Services from './components/services/Services'
+// import Services from './components/services/Services'
 import Testimonials from './components/testimonials/Testimonials'
 
 const app = () => {
@@ -16,7 +16,7 @@ const app = () => {
       <Nav />
       <About />
       <Experience />
-      <Services />
+      {/* <Services /> */}
       <Portfolio />
       <Testimonials />
       <Contact />
